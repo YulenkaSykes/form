@@ -1,0 +1,38 @@
+.inputs{
+    width: 50%;
+    height: 40vh;
+    align-self: flex-end;
+    transform: translateY(-70%);
+
+    .input{
+        width: 95%;
+        height: 70px;
+        border: 1px solid #C1C1C1;
+        box-sizing: border-box;
+        border-radius: 16px;
+        margin: 15px
+        }
+        .input_green{
+            border: 1px solid #87D78B;
+        }
+        .input_red{
+            border: 1px solid #D23737;
+            color: #D23737;
+        }
+        span{
+        width: fit-content;
+        font-weight: bold;
+        align-self: flex-start;
+        margin: 5px;
+    }
+    .span_color{
+        color:#D23737;
+    }
+    @media (max-width: 768px){
+            width: 90%;
+            flex-direction: column;
+            transform: translateY(0);
+            align-self: center;
+        
+    }
+}

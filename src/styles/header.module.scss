@@ -1,0 +1,7 @@
+.header{
+    display: none !important;
+
+    @media (max-width: 768px) {
+        display: flex !important;
+    }
+}

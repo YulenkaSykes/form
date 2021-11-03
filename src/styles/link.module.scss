@@ -1,0 +1,25 @@
+.allLinks{
+    width: 43%;
+
+    .links{
+        width: fit-content;
+        height: 25px;
+        margin: 10px;
+        border-radius: 16px;
+        color: black;
+        background: none;
+        align-self: center;
+
+        .link{
+            color: #3C9C41;
+            font-weight: bold;
+            margin: 5px;
+            cursor: pointer;
+        }
+    }
+    @media (max-width: 768px){
+            width: 100%;
+            transform: translateY(100%);
+        
+    }
+}
